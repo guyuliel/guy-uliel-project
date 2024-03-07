@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Orders</title>
+    <style>
+   table {
+    border-collapse: collapse;
+    width: 11.5%; /* Keeping the width to 50% as per your previous request */
+    /* Removed margin-left and margin-right to align the table to the left */
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+.button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.order-link {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h2 {
+    color: #444;
+}
+
+.button, .order-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.button:hover, .order-button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto; /* Center table */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.input-field {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.input-label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#orderId {
+    width: auto;
+}
+      
+        
+    </style>
+</head>
+<body>
+
+<h2>Product Orders</h2>
+
+<button class="button" onclick="location.href='html2.1.html'">New Order</button>
+<table>
+    <thead>
+        <tr>
+            <th>Order ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Existing orders will be populated here, now clickable -->
+        <tr><td><a href="html2.2.html" class="order-link">1</a></td></tr>
+        <tr><td><a href="#" class="order-link">2</a></td></tr>
+        <tr><td><a href="#" class="order-link">4</a></td></tr>
+        <tr><td><a href="#" class="order-link">5</a></td></tr>
+        <tr><td><a href="#" class="order-link">6</a></td></tr>
+        <tr><td><a href="#" class="order-link">7</a></td></tr>
+        <tr><td><a href="#" class="order-link">8</a></td></tr>
+        <tr><td><a href="#" class="order-link">9</a></td></tr>
+        <tr><td><a href="#" class="order-link">10</a></td></tr>
+        <tr><td><a href="#" class="order-link">11</a></td></tr>
+        <tr><td><a href="#" class="order-link">12</a></td></tr>
+        <tr><td><a href="#" class="order-link">13</a></td></tr>
+        <tr><td><a href="#" class="order-link">14</a></td></tr>
+        <tr><td><a href="#" class="order-link">15</a></td></tr>
+        <!-- Add more rows as needed -->
+    </tbody>
+</table>
+</body>
+</html>
