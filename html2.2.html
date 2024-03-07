@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Existing Order</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .letterbox {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        h2 {
+            color: #444;
+        }
+
+        .button, .order-button {
+            background-color: #6f00ff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .button:hover, .order-button:hover {
+            background-color: #5a00e0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto; /* Center table */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        td a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        td a:hover {
+            text-decoration: underline;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+        .input-label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        #orderId {
+            width: auto;
+        }
+
+        /* Export button styling */
+        .export-button {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background-color: #4caf96;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .export-button:hover {
+            background-color: #367c39;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="button-container">
+    <a href="html1.html" class="order-button">Back to Product Orders</a>
+</div>
+
+<table>
+    <tr>
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Amount</th>
+    </tr>
+    <tr><td>1</td><td>Kinder Bueno (white)</td><td>3</td></tr>
+    <tr><td>5</td><td>Milky Way</td><td>5</td></tr>
+    <tr><td>7</td><td>Twix</td><td>2</td></tr>
+    <tr><td>12</td><td>Snickers</td><td>4</td></tr>
+    <tr><td>18</td><td>Kit Kat</td><td>6</td></tr>
+</table>
+
+<!-- Export to Excel button -->
+<a href="#" class="export-button">Export to EXCEL</a>
+
+</body>
+</html>
